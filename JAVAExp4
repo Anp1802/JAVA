@@ -1,0 +1,12 @@
+public class MyClass { 
+    public static void main(String args[]) { 
+        int total = 0, sum = 0, evenNo = 2, n = 10; 
+  
+        while(total != n){ 
+            total++; 
+            sum += evenNo; 
+            evenNo += 2; 
+        } 
+        System.out.println("Sum Of First 10 Even Number : " + sum); 
+    } 
+} 
